@@ -5,7 +5,14 @@ export const Card = props => {
   console.log("CARD => ", props);
   return (
     <div className="card">
-      <div key={props.monster.id}>{props.monster.name}</div>
+      <img
+        alt="monster"
+        src={`https://robohash.org/${props.monster.id}?set=set2&size=180x180`}
+      ></img>
+      <h2>{props.monster.name}</h2>
+      <p>{props.monster.email}</p>
+      <p>{props.monster.phone}</p>
+      <p>{props.monster.website}</p>
     </div>
   );
 };

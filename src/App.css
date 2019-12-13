@@ -1,2 +1,13 @@
 .App {
   text-align: center; }
+  .App .header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    background: linear-gradient(to left, #071b52 0%, teal 100%);
+    padding-bottom: 20px; }
+  .App h1 {
+    font-family: "Bigelow Rules", cursive;
+    font-size: 72px;
+    color: #0ccac4; }
